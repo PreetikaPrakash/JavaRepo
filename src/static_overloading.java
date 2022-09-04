@@ -14,7 +14,9 @@ public class static_overloading extends over{
         over.fruits("apple");
         over.fruits("mango","banana");
     }
-
-
-
 }
+/* OUTPUT
+apple
+mango
+banana
+*/
