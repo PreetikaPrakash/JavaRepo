@@ -4,8 +4,9 @@ public class final_variable {
 
     final static int MEDIUM;
     final int HIGH;
+    final int NORMAL;
 
-    // Method 2 : to initialize final variable. -- static
+    // Method 2 : to initialize final variable. -- static block
     static{
         MEDIUM = 50;
     }
@@ -13,11 +14,16 @@ public class final_variable {
     final_variable(){
         HIGH = 100;
     }
+    // Method 4 : to initialize final variable. -- instance block
+    {
+        NORMAL = 500;
+    }
     public static void main(String...args){
         final_variable fv = new final_variable();
         System.out.println(fv.LOW);
         System.out.println(fv.MEDIUM);
         System.out.println(fv.HIGH);
+        System.out.println(fv.NORMAL);
     }
 
 }
@@ -25,4 +31,5 @@ public class final_variable {
 0
 50
 100
+500
 */
