@@ -13,5 +13,6 @@ class multiple_main_methods_one {
         int y=5;
         System.out.println(y++);
         System.out.println("one");
+        System.out.println("one");
     }
 }
