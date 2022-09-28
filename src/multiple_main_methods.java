@@ -2,6 +2,7 @@
 class multiple_main_methods_two {
     public static void main(String[] args){
         System.out.println("Class second");
+        System.out.println("Class second");
 
     }
 }
