@@ -4,6 +4,7 @@ class multiple_main_methods_two {
         System.out.println("Class second");
         System.out.println("Class second");
 
+
     }
 }
 class multiple_main_methods_one {
