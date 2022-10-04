@@ -43,7 +43,7 @@ public class vending_machine {
         }
 
     public void processing(boolean process,int priceitem){
-        int finalprice = priceitem;
+        int finalprice = 0;
             System.out.println("Please enter note amount and no of notes. Press ‘y’ if done");
 
             Scanner sc2 =  new Scanner(System.in);
@@ -65,20 +65,21 @@ public class vending_machine {
     public void calculateprice(int note, int no_of_note,int priceitem,int finalprice){
 
         int cal= note * no_of_note;
-        priceitem = priceitem-cal;
+        finalprice = finalprice+cal;
 
         if (priceitem==finalprice){
             System.out.println("Thankyou for your purchase");
         }
         else{
+            System.out.println("Enter amount again");
             Scanner sc2 =  new Scanner(System.in);
             String str2 = sc2.nextLine();
             String[] arrOfStr2 = str2.split(",", 2);
             int note2= Integer.parseInt(arrOfStr2[0]);
             int no_of_note2 = Integer.parseInt(arrOfStr2[1]);
-            //int cal= note * no_of_note;
-            priceitem = priceitem-cal;
+            //System.out.printf("%1d %2d %3d %4d\n",note2,no_of_note2,priceitem,finalprice);
             calculateprice(note2,no_of_note2,priceitem,finalprice);
+
         }
     }
     public static void main(String args[]){
