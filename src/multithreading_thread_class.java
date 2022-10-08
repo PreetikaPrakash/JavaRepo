@@ -13,7 +13,7 @@ public class multithreading_thread_class extends Thread{
         th.start();
 
         for (int i=0;i<=10;i++){
-            System.out.println("B print");
+            System.out.println("AA print");
         }
 
     }
