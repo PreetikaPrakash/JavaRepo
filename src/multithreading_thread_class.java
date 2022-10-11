@@ -1,7 +1,7 @@
 public class multithreading_thread_class extends Thread{
-
+// In a single class
     public void run(){
-        for (int i=0;i<=10;i++){
+        for (int i=0;i<=100;i++){
             System.out.println("A print");
         }
     }
@@ -9,10 +9,10 @@ public class multithreading_thread_class extends Thread{
 
     public static void main(String[] args){
 
-        Thread th = new Thread();
+        multithreading_thread_class th = new multithreading_thread_class();
         th.start();
 
-        for (int i=0;i<=10;i++){
+        for (int i=0;i<=100;i++){
             System.out.println("AA print");
         }
 
