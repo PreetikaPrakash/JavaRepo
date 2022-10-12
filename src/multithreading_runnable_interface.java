@@ -12,7 +12,7 @@ public class multithreading_runnable_interface implements Runnable {
         thh.start();
 
         for (int i=0;i<=100;i++){
-            System.out.println("BB print");
+            System.out.println("BBB print");
         }
 
     }
