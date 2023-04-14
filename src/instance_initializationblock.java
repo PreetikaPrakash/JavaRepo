@@ -18,7 +18,7 @@ public class instance_initializationblock {
 
     public static void main(String[] args) {
 
-        instance_initializationblock i1 = new instance_initializationblock();
+        instance_initializationblock i11 = new instance_initializationblock();
         instance_initializationblock i2 = new instance_initializationblock();
 
     }
