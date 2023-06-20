@@ -1,6 +1,5 @@
-package collections;
+package collections.list;
 
-import java.util.Iterator;
 import java.util.LinkedList;
 
 class Book{

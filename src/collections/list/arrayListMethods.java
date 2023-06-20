@@ -1,4 +1,4 @@
-package collections;
+package collections.list;
 
 import java.sql.SQLOutput;
 import java.util.ArrayList;
