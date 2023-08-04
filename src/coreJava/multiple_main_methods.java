@@ -1,4 +1,8 @@
 package coreJava;
+/*
+    Written first ---> Executed first
+
+ */
 
 class multiple_main_methods_two {
     public static void main(String[] args){
@@ -8,6 +12,7 @@ class multiple_main_methods_two {
 
     }
 }
+
 class multiple_main_methods_one {
     public static void main(String[] args){
         System.out.println("Class first");
@@ -19,3 +24,4 @@ class multiple_main_methods_one {
         System.out.println("one");
     }
 }
+
